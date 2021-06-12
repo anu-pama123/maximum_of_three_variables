@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.MaximumValueTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-06-12T13:38:59" hostname="aswin-laptop" time="0.007">
+<testsuite name="com.bridgelabz.MaximumValueTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-06-12T16:00:38" hostname="aswin-laptop" time="0.01">
   <properties/>
-  <testcase name="givenFloatValue_whenCompared_returnsThirdValueAsMax" classname="com.bridgelabz.MaximumValueTest" time="0.003"/>
+  <testcase name="givenFloatValue_whenCompared_returnsThirdValueAsMax" classname="com.bridgelabz.MaximumValueTest" time="0.002"/>
   <testcase name="givenIntegerValue_whenCompared_returnsThirdValueAsMax" classname="com.bridgelabz.MaximumValueTest" time="0.0"/>
-  <testcase name="givenFloatValue_whenCompared_returnsSecondValueAsMax" classname="com.bridgelabz.MaximumValueTest" time="0.0"/>
-  <testcase name="givenIntegerValue_whenCompared_returnsSecondValueAsMax" classname="com.bridgelabz.MaximumValueTest" time="0.0"/>
-  <testcase name="givenFloatValue_whenCompared_returnsFirstValueAsMax" classname="com.bridgelabz.MaximumValueTest" time="0.0"/>
-  <testcase name="givenIntegerValue_whenCompared_returnsFirstValueAsMax" classname="com.bridgelabz.MaximumValueTest" time="0.0"/>
+  <testcase name="givenStringValue_whenCompared_returnsFirstValueAsMax" classname="com.bridgelabz.MaximumValueTest" time="0.0"/>
+  <testcase name="givenFloatValue_whenCompared_returnsSecondValueAsMax" classname="com.bridgelabz.MaximumValueTest" time="0.001"/>
+  <testcase name="givenIntegerValue_whenCompared_returnsSecondValueAsMax" classname="com.bridgelabz.MaximumValueTest" time="0.001"/>
+  <testcase name="givenStringValue_whenCompared_returnsThirdValueAsMax" classname="com.bridgelabz.MaximumValueTest" time="0.001"/>
+  <testcase name="givenFloatValue_whenCompared_returnsFirstValueAsMax" classname="com.bridgelabz.MaximumValueTest" time="0.001"/>
+  <testcase name="givenIntegerValue_whenCompared_returnsFirstValueAsMax" classname="com.bridgelabz.MaximumValueTest" time="0.001"/>
+  <testcase name="givenStringValue_whenCompared_returnsSecondValueAsMax" classname="com.bridgelabz.MaximumValueTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

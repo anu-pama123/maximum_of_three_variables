@@ -2,20 +2,30 @@ package com.bridgelabz;
 
 public class MaximumValueBuilder {
 
-    public Integer findMaximumValue(Integer firstNumber, Integer secondNumber, Integer thirdNumber) {
-        Integer max=firstNumber;
-        if (secondNumber.compareTo(max)>0)
-            max = secondNumber;
-        if (thirdNumber.compareTo(max)>0)
-            max = thirdNumber;
+    public Integer findMaximumValue(Integer firstValue, Integer secondValue, Integer thirdValue) {
+        Integer max = firstValue;
+        if (secondValue.compareTo(max)>0)
+            max = secondValue;
+        if (thirdValue.compareTo(max)>0)
+            max = thirdValue;
         return max;
     }
-    public Float findMaximumFloatValue(Float firstNumber, Float secondNumber, Float thirdNumber) {
-        Float max=firstNumber;
-        if (secondNumber.compareTo(max)>0)
-            max = secondNumber;
-        if (thirdNumber.compareTo(max)>0)
-            max = thirdNumber;
+
+    public Float findMaximumFloatValue(Float firstValue, Float secondValue, Float thirdValue) {
+        Float max = firstValue;
+        if (secondValue.compareTo(max)>0)
+            max = secondValue;
+        if (thirdValue.compareTo(max)>0)
+            max = thirdValue;
+        return max;
+    }
+
+    public String findMaximumStringValue(String firstValue, String secondValue, String thirdValue) {
+        String max = firstValue;
+        if (secondValue.compareTo(max)>0)
+            max = secondValue;
+        if (thirdValue.compareTo(max)>0)
+            max = thirdValue;
         return max;
     }
 }
