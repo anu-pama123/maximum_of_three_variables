@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.MaximumValueTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-06-12T18:39:14" hostname="aswin-laptop" time="0.008">
+<testsuite name="com.bridgelabz.MaximumValueTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-12T18:50:16" hostname="aswin-laptop" time="0.021">
   <properties/>
-  <testcase name="givenFloatValue_whenCompared_returnsThirdValueAsMax" classname="com.bridgelabz.MaximumValueTest" time="0.002"/>
-  <testcase name="givenIntegerValue_whenCompared_returnsThirdValueAsMax" classname="com.bridgelabz.MaximumValueTest" time="0.0"/>
-  <testcase name="givenStringValue_whenCompared_returnsFirstValueAsMax" classname="com.bridgelabz.MaximumValueTest" time="0.0"/>
-  <testcase name="givenFloatValue_whenCompared_returnsSecondValueAsMax" classname="com.bridgelabz.MaximumValueTest" time="0.001"/>
-  <testcase name="givenIntegerValue_whenCompared_returnsSecondValueAsMax" classname="com.bridgelabz.MaximumValueTest" time="0.0"/>
-  <testcase name="givenIntegerValues_WhenCompared_ReturnsMaxValue" classname="com.bridgelabz.MaximumValueTest" time="0.0"/>
-  <testcase name="givenStringValue_whenCompared_returnsThirdValueAsMax" classname="com.bridgelabz.MaximumValueTest" time="0.001"/>
-  <testcase name="givenFloatValues_WhenCompared_ReturnsMaxValue" classname="com.bridgelabz.MaximumValueTest" time="0.0"/>
-  <testcase name="givenFloatValue_whenCompared_returnsFirstValueAsMax" classname="com.bridgelabz.MaximumValueTest" time="0.001"/>
-  <testcase name="givenStringValues_WhenCompared_ReturnsMaxValue" classname="com.bridgelabz.MaximumValueTest" time="0.0"/>
-  <testcase name="givenIntegerValue_whenCompared_returnsFirstValueAsMax" classname="com.bridgelabz.MaximumValueTest" time="0.0"/>
-  <testcase name="givenStringValue_whenCompared_returnsSecondValueAsMax" classname="com.bridgelabz.MaximumValueTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="givenStringValuesWithOptionalValue_WhenCompared_ReturnsMaxValue" classname="com.bridgelabz.MaximumValueTest" time="0.021"/>
+  <system-out><![CDATA[Maximum of Peach,Apple,Banana,yellow,is:yellow
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

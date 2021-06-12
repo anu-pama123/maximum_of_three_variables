@@ -33,6 +33,15 @@ public class MaximumValueBuilder<E extends Comparable> {
             if (optionalValues[optionalValues.length - 1].compareTo(max) > 0)
                 max = optionalValues[optionalValues.length - 1];
         }
+        printMax(firstValue, secondValue, thirdValue, max, optionalValues);
         return max;
+    }
+
+    public static <E extends Comparable> void printMax(E firstValue, E secondValue, E thirdValue, E max, E... optionalVal) {
+        System.out.print("Maximum of " + firstValue + "," + secondValue + "," + thirdValue + ",");
+        for (E value : optionalVal) {
+            System.out.print(value + ",");
+        }
+        System.out.println("is:" + max);
     }
 }
