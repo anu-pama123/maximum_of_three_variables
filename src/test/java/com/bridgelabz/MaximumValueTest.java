@@ -68,4 +68,24 @@ public class MaximumValueTest {
         Comparable maxString = maximumValue.findMax();
         Assert.assertEquals("Orange", maxString);
     }
+
+    @Test
+    public void givenIntegerValues_WhenCompared_ReturnsMaxValue() {
+        Integer maxInteger = new MaximumValueBuilder<>(20, 10, 5, 65, 2).findMax();
+        Integer expectedMax = 65;
+        Assert.assertEquals(expectedMax, maxInteger);
+    }
+
+    @Test
+    public void givenFloatValues_WhenCompared_ReturnsMaxValue() {
+        Float maxFloat = new MaximumValueBuilder<>(3.1f, 2.1f, 1.1f, 4.3f).findMax();
+        Float expectedMax = 4.3f;
+        Assert.assertEquals(expectedMax, maxFloat);
+    }
+
+    @Test
+    public void givenStringValues_WhenCompared_ReturnsMaxValue() {
+        String maxString = new MaximumValueBuilder<>("Peach", "Apple", "Banana", "yellow").findMax();
+        Assert.assertEquals("yellow", maxString);
+    }
 }
